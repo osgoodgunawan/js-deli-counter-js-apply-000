@@ -12,7 +12,7 @@ function takeANumber(katzDeliLine,name){
 
 
 function nowServing(katzDeliLine){
-  if(!katzDeliLine.length){
+  if(katzDeliLine.length<=0){
     return"There is nobody waiting to be served!"
   }else{
     return "Currently serving "+katzDeliLine.shift() +".";
@@ -29,7 +29,6 @@ function currentLine(katzDeliLine){
     if(katzDeliLine.length<=0){
      return "The line is currently empty."
     }else{
-      console.log(final);
       return "The line is currently:"+ final
     }
     
