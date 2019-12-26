@@ -4,7 +4,7 @@ let katzDeliLine=[]
 
 function takeANumber(katzDeliLine,name){
  
- katzDeliLine.push('annie');
+ katzDeliLine.push(name);
  console.log(katzDeliLine)
  return ("Welcome, "+ name +". You are number "+katzDeliLine.length+" in line.")
  
