@@ -1,6 +1,6 @@
 
 
-let katzDeliLine=[]
+// katzDeliLine=[]
 
 function takeANumber(katzDeliLine,name){
   
