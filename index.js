@@ -19,7 +19,7 @@ function nowServing(katzDeliLine){
     return "Currently serving "+katzDeliLine.shift() +".";
     
   }
-  
+  console.log(katzDeliLine)
 }
 
 function currentLine(katzDeliLine){
